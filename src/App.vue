@@ -4,6 +4,7 @@
     <h1>{{ msg }}</h1>
     
     <h2>Ecosystem</h2>
+    <button @click="calc()">Klik</button>
   </div>
 </template>
 
@@ -17,8 +18,10 @@ export default {
       msg: 'Welcome to Your Vue.js  App'
     }
   },
-  created(){
-    console.log('Created called')
+  methods: {
+    calc(){
+      alert("!!!!")
+    }
   }
 }
 </script>
