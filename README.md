@@ -2,6 +2,9 @@
 
 > A Vue.js project
 
+#Start
+Starten på webshop. (Template)
+
 ## Build Setup
 
 ``` bash
